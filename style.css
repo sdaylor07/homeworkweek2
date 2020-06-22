@@ -1,3 +1,38 @@
-footer {
-    padding-left: 450px;
+body {
+    background-color:  rgb(202, 122, 255);
 }
+
+nav {
+    border-color: rgb(241, 61, 217);
+    background-color: rgb(246, 135, 250);
+    padding-left: 200px;
+
+}
+
+.row {
+    padding-left: 10px;}
+
+article {
+    border: black;
+    border-width: 15px;
+}
+
+.container {
+    border-color: rgb(241, 61, 217);
+    background-color: rgb(235, 8, 243);
+    padding-left: 20px;
+   border-width: 20px; 
+}
+
+
+header {
+    padding-right: 30px;
+}
+img {
+    border-radius: 25px;
+    image-orientation;
+    margin-left: 175px;
+}
+
+
+ 
