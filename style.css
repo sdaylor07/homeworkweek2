@@ -2,19 +2,29 @@ body {
     background-color:  rgb(202, 122, 255);
 }
 
+#navigation {
+    margin-bottom: 45px;
+}
+
+
+
 .container {
     border-color: rgb(241, 61, 217);
     background-color: rgb(235, 8, 243);
-   border-width: 20px; 
+   border-width: 100%;
 }
+
+
 
 img {
     border-radius: 25px;
     image-orientation;
     margin-left: 175px;
+    box-shadow: 4px 5px 5px black; 
+    margin-bottom: 25px;
 }
 
- /* Style inputs with type="text", select elements and textareas */
+ /* CONTACT ME PAGE */
  input[type=text], select, textarea {
     width: 100%; /* Full width */
     padding: 12px; /* Some padding */ 
@@ -28,7 +38,7 @@ img {
   
   
   input[type=submit] {
-    background-color: #4CAF50;
+    background-color: #e27ce2
     color: white;
     padding: 12px 20px;
     border: none;
@@ -38,17 +48,48 @@ img {
   
 
   input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #7745a0;
   }
   
+  /* END OF CONTACT ME PAGE */
 
-    
-  } 
  
-  h2{
+#title {
+    font-family: 'Raleway', sans-serif;
       border: black;
       border-width: 3px;
-      border-style: groove;
-text-align: center;
-margin: 0px 300px 0px 300px;
+      border-style: solid;
+      text-align: center;
+      margin-left: 50px;
+      margin-right: 50px;
+      
   }
+
+ #header {
+     background-color: blueviolet;
+     text-align: center;
+     font-family: 'Raleway', sans-serif;
+ }
+
+
+ .col-xs-12 {
+     font-family: 'Raleway', sans-serif;
+     border: rgba(230, 124, 240, 0.849);
+     border-width: 5px;
+     border-style: solid;
+     padding-top: 5px;
+     padding-left: 2px;
+     padding-bottom: -10px;
+     box-shadow: 5px 5px rgb(59, 59, 59); 
+ }
+
+ #footer {
+     background-color: cornflowerblue;
+    font-family: 'Raleway', sans-serif;
+     margin-top: 75px;
+     text-align: center;
+     border: rgb(154, 98, 243);
+     border-width: 5px;
+     border-style: solid;
+     padding-top: 3px;
+ }
