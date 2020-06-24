@@ -2,10 +2,6 @@ body {
     background-color:  rgb(202, 122, 255);
 }
 
-#navigation {
-    margin-bottom: 45px;
-}
-
 
 
 .container {
@@ -93,3 +89,34 @@ img {
      border-style: solid;
      padding-top: 3px;
  }
+
+ #footerportfolio {
+ background-color: cornflowerblue;
+ font-family: 'Raleway', sans-serif;
+  text-align: center;
+  border: rgb(154, 98, 243);
+  border-width: 5px;
+  border-style: solid;
+  padding-top: 3px;
+  
+ }
+
+ .card-deck{
+    font-family: 'Raleway', sans-serif;
+   padding: 30px;
+ }
+
+ #explanation {
+    font-family: 'Raleway', sans-serif;
+   text-align: center;
+ }
+
+ .card-deck{
+     size: 20px;
+ }
+ 
+
+ @media only screen and (max-width: 600px) {
+  .photos {
+   display: none;}
+  }
