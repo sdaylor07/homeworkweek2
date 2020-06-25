@@ -111,8 +111,10 @@ img {
    text-align: center;
  }
 
- .card-deck{
-     size: 20px;
+ #card-background {
+     background-color: crimson;
+     border: crimson;
+     border-style: double;
  }
  
 
