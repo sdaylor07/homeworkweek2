@@ -5,17 +5,61 @@ body {
 
 
 .container {
-    border-color: rgb(241, 61, 217);
-    background-color: rgb(235, 8, 243);
+border-color: rgb(241, 61, 217);
+background-color: rgb(235, 8, 243);
    border-width: 100%;
+   font-family: 'Raleway', sans-serif;
+   border: rgba(230, 124, 240, 0.849);
+   border-width: 5px;
+   border-style: solid;
+   padding-top: 5px;
+   padding-left: 10px;
+   padding-bottom: -10px;
+   box-shadow: 5px 5px rgb(59, 59, 59); 
+   margin-bottom: 48px;
+}
+
+h4{
+    text-align: center;
+}
+
+h4:hover{
+    color: rgb(255, 0, 157)
+}
+
+ul:hover {
+    color: white;
+    text-emphasis: bold;
+}
+p:hover {
+    color: rgb(137, 206, 137);
+    text-emphasis: bold;
+}
+
+h3:hover {
+    color: rgb(137, 206, 137);
+    text-emphasis: bold;
+}
+
+.section {
+    width: 66%;
+    margin: auto;
+    padding:10px;
+    border-color: rgb(162, 36, 221);
+background-color: rgb(229, 132, 233);
+   font-family: 'Raleway', sans-serif;
+   border-style: solid;
+   box-shadow: 5px 5px rgb(59, 59, 59); 
+   margin-bottom: 20px;
 }
 
 
 
-img {
+#col-xs-4 {
     border-radius: 25px;
     box-shadow: 4px 5px 5px black; 
     margin-bottom: 25px;
+    margin-left: 175px;
 }
 
  /* CONTACT ME PAGE */
@@ -34,7 +78,7 @@ img {
   input[type=submit] {
     background-color: #e27ce2;
     color: white;
-    padding: 12px 20px;
+    padding: 50px
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -66,26 +110,26 @@ img {
  }
 
 
- .col-xs-12 {
-     font-family: 'Raleway', sans-serif;
-     border: rgba(230, 124, 240, 0.849);
-     border-width: 5px;
-     border-style: solid;
-     padding-top: 5px;
-     padding-left: 2px;
-     padding-bottom: -10px;
-     box-shadow: 5px 5px rgb(59, 59, 59); 
- }
-
  #footer {
      background-color: cornflowerblue;
     font-family: 'Raleway', sans-serif;
-     margin-top: 75px;
      text-align: center;
      border: rgb(154, 98, 243);
      border-width: 5px;
      border-style: solid;
      padding-top: 3px;
+    
+ }
+
+ #explanation {
+     width: 33%;
+     margin-left: 33%;
+     margin-top: 20px;
+     margin-bottom: 30px;
+     border: black;
+     border-style: solid;
+     border-width: 2px;
+     padding-top: 7px;
  }
 
  #footerportfolio {
